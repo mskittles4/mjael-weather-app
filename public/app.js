@@ -54,7 +54,7 @@ const addWeatherToDOM = (data) => {
 
 //conversion from kelvin to celsius
 const kelvinToCelsius = (temp) => {
-  return Math.floor(temp - 273.15);
+  return Math.ceil(temp - 273.15);
 };
 
 //visibility in km
